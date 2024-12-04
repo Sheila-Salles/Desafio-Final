@@ -22,7 +22,7 @@ export default function Footer(){
                     <a href=""><img src={instagram} alt="icone do instagram" /></a>
                 </nav>
             </section>
-            <section className={S.boxRodape}>
+            <section className={S.boxTexto}>
             <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
             </section>
         </footer>
