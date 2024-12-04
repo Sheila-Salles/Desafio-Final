@@ -1,0 +1,120 @@
+
+.post{
+    background-image: url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    h2{
+        //border: solid 2px red;
+        width: 27vw;
+        margin-left:130px;
+        font-size: 40px;
+
+    }
+    
+}
+
+.devoDoar {
+    height: 80vh;
+    //border: solid 2px red;
+    div{
+      height: 15vh;
+      display: flex;
+      align-items: center;
+      h2{
+        font-size: 30px;
+        color: rgba(0, 86, 149, 1);
+        margin-left:65px;
+
+      }
+    }
+}
+  
+.boxCard{
+  //border: solid 2px yellow;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+
+article{
+  width: 20%;
+  height: 80%;
+  background: rgba(1, 87, 148, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+
+
+}}
+p{
+  width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+@media(max-width: 1100px){
+  .boxCard{article{
+    p{
+      font-size: 1.5vw;
+    }
+  }}
+  
+@media(max-width: 760px){
+  .post{
+    background-position: center;
+    justify-content: center;
+    h2{
+      border: solid 2px red;
+      width: 70%;
+      text-align: center;
+      font-size: 28px;
+      margin-left: 0;
+    }
+  }
+
+}
+.devoDoar{
+  border: solid 2px green;
+  height: 120vh;
+  div{
+    border: solid 2px red;
+    justify-content: center;
+    h2{
+      margin-left: 0;
+    }
+  }
+}
+.boxCard{
+  border: solid 2px yellow;
+  height: 100vh;
+  flex-wrap: wrap;
+  gap:20px;
+
+  
+  article{
+    width: 200px;
+    height: 250px;
+    p{
+      font-size: 14px;
+    }
+  }
+}
+}
+@media(max-width: 427px){
+  .devoDoar{
+    height: 220vh;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+  }
+  .boxCard{
+    height: auto;
+  }
+}

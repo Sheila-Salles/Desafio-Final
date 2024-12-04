@@ -1,0 +1,42 @@
+
+.titulo{
+   text-align: center;
+   padding-top: 15px;
+   font-size: 40px;
+}
+
+
+.doados{
+    //border: solid 2px red;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+
+
+
+
+    div{
+        border: solid 2px rgba(0,86,149,1);
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-left: 25px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 13px;
+        width: 14vw;
+        height: 30vh;
+
+    }
+    img{
+        padding-right: 35px;
+
+    }
+    p{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+}
