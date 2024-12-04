@@ -1,60 +1,29 @@
-import S from "../Doados/doados.module.scss" 
-import ficticio from "../../assets/ficticio.png"
+import S from '../Doados/doados.module.scss'
+import livros from '../../assets/livros.png'
 
 
 export default function Doados(){
-    return(<section>
-    
-        <h2 className={S.titulo}>Livros Doados</h2>
-        
-        
-    
-    <section className={S.doados}>
-        
-        <div >
-    
-    <img src={ficticio} alt="Livro fictício" />
-    <p>O protagonista</p>
-    <p>Susanne Andrade</p>
-    <p>Ficção</p>
-    
-    </div>
-    
-    <div >
-    
-    <img src={ficticio} alt="Livro fictício" />
-    <p>O protagonista</p>
-    <p>Susanne Andrade</p>
-    <p>Ficção</p>
-    
-    </div>
+    return(
+        <section className={S.boxDoados}>
+            <h2>Livros Doados</h2>
+            <section className={S.boxcard}>
+                <article>
+                    <img src={livros} alt="imagem de um livro que se chama o protagonista" />
 
-    <div>
-    
-    <img src={ficticio} alt="Livro fictício" />
-    <p>O protagonista</p>
-    <p>Susanne Andrade</p>
-    <p>Ficção</p>
-    
-    </div>
+                    <h3>O Protagonista</h3>
+                    <p>Susanne Andrade</p>
+                    <p>Ficção</p>
 
-    <div >
-    
-    <img src={ficticio} alt="Livro fictício" />
-    <p>O protagonista</p>
-    <p>Susanne Andrade</p>
-    <p>Ficção</p>
-    
-    </div>
-    
-    </section>
-    </section>)     
+                </article>
+                <article>
+                    <img src={livros} alt="imagem de um livro que se chama o protagonista" />
+                    
+                    <h3>O Protagonista</h3>
+                    <p>Susanne Andrade</p>
+                    <p>Ficção</p>
+                    
+                </article>
+            </section>
+        </section>
+    )
 }
-
-
-
-
-
-
-
-
