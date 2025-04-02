@@ -1,5 +1,4 @@
-
-.boxDoados{ 
+.boxDoados {
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -7,34 +6,35 @@
   justify-content: space-around;
 }
 
-.boxcard{
+.boxcard {
   width: 85vw;
   height: 60vh;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 10px;
-  article{
-   border:  solid 2px #005695;
-   width: 200px;
-   height: 32vh;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   flex-direction: column;
-   border-radius: 13px;
-    img{
-      padding-bottom: 20px;
+  article {
+    border: solid 2px #005695;
+    width: 200px;
+    height: 32vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 13px;
+    img {
+      padding-bottom: 30%;
+      width: 30%;
     }
   }
 }
 
-@media(max-width: 900px){
-  .boxcard{
+@media (max-width: 900px) {
+  .boxcard {
     height: 80vh;
   }
 
-  .boxDoados{
+  .boxDoados {
     height: 90vh;
   }
 }
